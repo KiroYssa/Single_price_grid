@@ -1,0 +1,130 @@
+/*------------------Tag Selectors------------------*/
+body {
+  font-family: 'Karla', sans-serif;
+  padding: 5%;
+  padding-top: 0;
+  margin: 0;
+  box-shadow: 10px 5px 5px hsl(180, 62%, 95%);
+  position: absolute;
+  shape-outside: ellipse();
+}
+
+h3 {
+  color: hsl(218, 22%, 67%);
+  font-weight: 700;
+}
+
+/*------------------Class Selectors------------------*/
+.headDiv {
+  margin: 0px 3% 0px 3%;
+  padding: 3%;
+}
+
+.headParag {
+  color: hsl(218, 22%, 67%);
+  font-weight: lighter;
+  width: 70%;
+}
+
+.headline {
+  color: hsl(179, 62%, 43%);
+}
+
+.headSecLine {
+  color: hsl(71, 73%, 54%);
+}
+
+.bottomDiv {
+  height: 14.5rem;
+}
+
+.leftDiv {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  margin: 0px 0px 0px 3%;
+  width: 35%;
+  height: 97%;
+  float: left;
+  padding: 5%;
+  font-size: 1.2rem;
+}
+
+.clrTop{
+margin-top: 0;
+}
+
+
+.29dollar {
+  float: left;
+  margin-block: 0em;
+}
+
+.29_dollar {
+  float: left;
+  width: 30%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.formonth{
+  position: absolute;
+  left: 17rem;
+  top: 27rem;
+}
+
+.for_month {
+  color:	white;
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+
+.fullaccess {
+  color: white;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, hsl(71, 73%, 54%) 5%, hsl(71, 73%, 54%) 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:1.2rem;
+  width: 50%;
+  text-align: center;
+	padding:1.5rem 3.5rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:hsl(71, 73%, 54%);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.rightDiv {
+  background-color: hsl(179, 62%, 45%);
+  color: white;
+  width: 39%;
+  height: 97%;
+  margin: 0px 3% 0px 0px;
+  float: right;
+  padding: 5%;
+}
+
+.rightParag {
+  color: hsl(180, 20%, 85%);
+  position: absolute;
+  margin: 0;
+  right: 27rem;
+  font-size: 1.2rem;
+  white-space: pre;
+  word-spacing: 0.5rem;
+}
+
+/*------------------Id Selectors------------------*/
